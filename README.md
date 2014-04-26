@@ -127,10 +127,10 @@ Undo your modification and ensure that all tests are passing before continuing o
 
 **Note** Depending on which starter template you picked, your tests may start off failing.
 
-## Wrapping it up
+### Wrapping it up
 If you made it this far then congratulations! You're now up and running with the gorgeous web & mobile application powered by AT&T API Service and AngularJS with grunt, an intelligent workflow and sophisticated build system - all facilitated by the addition of just a few commands!
 
-## Ripple Emulator (Experimental)
+### Ripple Emulator
 **Be Advised**: [Ripple](http://ripple.incubator.apache.org/) is under active development so expect support for some plugins to be missing or broken.
 
 Add a platform target then run `grunt ripple` to launch the emulator in your browser.
@@ -140,10 +140,6 @@ grunt ripple
 ```
 
 Now go edit a file and then refresh your browser to see your changes. (Currently experimenting with livereload for Ripple)
-
-**Note**: If you get errors beginning with `Error: static() root path required`, don't fret. Ripple defaults the UI to Android so just switch to an iOS device and you'll be good to go.
-
-![Ripple](http://i.imgur.com/LA4Hip1l.png)
 
 
 ### Special Thanks To
