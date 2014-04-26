@@ -62,25 +62,25 @@ Read about all the features [here](http://brandid.github.io/parse-angular-demo/#
 ### Workflow
 The included Grunt build system provides sensible defaults to help optimize and automate several aspects of your workflow when developing hybrid-mobile apps using AT&T API.
 
-### Managing libraries with Bower
+#### Managing libraries with Bower
 Install a new front-end library using `bower install --save` to update your `bower.json` file.
 ```
 bower install --save lodash
 ```
 This way, when the Grunt [`bower-install`](https://github.com/stephenplusplus/grunt-bower-install#grunt-bower-install) task is run it will automatically inject your front-end dependencies inside the `bower:js` block of your `app/index.html` file.
 
-### Manually adding libraries
+#### Manually adding libraries
 If a library you wish to include is not registered with Bower or you wish to manually manage third party libraries, simply include any CSS and JavaScript files you need **inside** your `app/index.html` [usemin](https://github.com/yeoman/grunt-usemin#blocks) `build:js` or `build:css` blocks but **outside** the `bower:js` or `bower:css` blocks (since the Grunt task overwrites the Bower blocks' contents).
 
-### Local browser development
+#### Local browser development
 Running `grunt serve` enhances your workflow by allowing you to rapidly build apps without having to constantly re-run your platform simulator. Since we spin up a `connect` server with `watch` and `livereload` tasks, you can freely edit your CSS (or SCSS/SASS files if you chose to use Compass), HTML, and JavaScript files and changes will be quickly reflected in your browser.
 
-### Building assets for Cordova
+#### Building assets for Cordova
 Once you're ready to test your application in a simulator or device, run `grunt cordova` to copy all of your `app/` assets into `www/` and build updated `platform/` files so they are ready to be emulated / run by Cordova.
 
 To compress and optimize your application, run `grunt build`. It will concatenate, obfuscate, and minify your JavaScript, HTML, and CSS files and copy over the resulting assets into the `www/` directory so the compressed version can be used with Cordova.
 
-### Cordova commands
+#### Cordova commands
 To make our lives a bit simpler, the `cordova` library has been packaged as a part of this generator and delegated via Grunt tasks. To invoke Cordova, simply run the command you would normally have, but replace `cordova` with `grunt` and `spaces` with `:` (the way Grunt chains task arguments).
 
 For example, lets say you want to add iOS as a platform target for your app
@@ -98,7 +98,7 @@ grunt plugin:add:org.apache.cordova.device
 grunt plugin:add:org.apache.cordova.network-information
 ```
 
-## Initial Walkthrough
+### Initial Walkthrough
 To help you hit the ground running, let's walk through an example workflow together. We're assuming you've followed the [usage](https://github.com/prabhutech/sensocloud#usage) directions and are inside your app's directory.
 
 We'll start by running our app in a browser so we can make a few changes.
@@ -117,7 +117,7 @@ grunt emulate:ios
 ```
 You may have realized that when the Grunt build process is run, it triggers the Cordova build system as well, so you end up with a beautifully packaged mobile app in a single command.
 
-## Testing Your App
+### Testing Your App
 To lessen the pain of testing your application, this generator configures your project with a handful of libraries that will hopefully make testing your application, dare I say, more enjoyable.
 
 ### Unit Tests
@@ -146,11 +146,11 @@ Now go edit a file and then refresh your browser to see your changes. (Currently
 ![Ripple](http://i.imgur.com/LA4Hip1l.png)
 
 
-## Special Thanks To
+### Special Thanks To
 * The pioneers behind [Yeoman](http://yeoman.io/) for building an intelligent workflow management solution.
 * The [AngularJS Generator](https://github.com/yeoman/generator-angular) projects for inspiration.
 
 
-## License
+### License
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
