@@ -26,7 +26,7 @@ Maybe you're at a hackathon, and you need to quickly launch a web or a mobile ap
 
 
 
-This boilerplate is a quickstart for developing AngularJS based web & hybrid mobile apps consuming AT&T API Service. It comes with powerful build system to get you started in minutes!
+We wanted to simplify the process of setting up the dev environment for consuming AT&T API. This boilerplate is a quickstart for developing AngularJS based web & hybrid mobile apps consuming AT&T API Service. It comes with powerful build system to get you started in minutes!
 Let us know what we can improve.
 
 ------
@@ -37,7 +37,6 @@ Let us know what we can improve.
 * Cordova to deploy your code as mobile application (iOS and Android)
 * …and lots more
 
-Read about all the features [here](http://brandid.github.io/parse-angular-demo/#/features)
 
 ------
 
@@ -63,9 +62,9 @@ Read about all the features [here](http://brandid.github.io/parse-angular-demo/#
 The included Grunt build system provides sensible defaults to help optimize and automate several aspects of your workflow when developing hybrid-mobile apps using AT&T API.
 
 #### Managing libraries with Bower
-Install a new front-end library using `bower install --save` to update your `bower.json` file.
+Install a new front-end library using `bower install --save` to update your `bower.json` file. If you want to add more new libraries supported by [`bower.io`](http://bower.io/search/) For example, to install font-awesome, you would do:
 ```
-bower install --save lodash
+bower install font-awesome --save
 ```
 This way, when the Grunt [`bower-install`](https://github.com/stephenplusplus/grunt-bower-install#grunt-bower-install) task is run it will automatically inject your front-end dependencies inside the `bower:js` block of your `app/index.html` file.
 
@@ -99,7 +98,7 @@ grunt plugin:add:org.apache.cordova.network-information
 ```
 
 ### Initial Walkthrough
-To help you hit the ground running, let's walk through an example workflow together. We're assuming you've followed the [usage](https://github.com/prabhutech/sensocloud#usage) directions and are inside your app's directory.
+To help you hit the ground running, let's walk through an example workflow together. 
 
 We'll start by running our app in a browser so we can make a few changes.
 ```
