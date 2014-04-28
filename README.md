@@ -4,20 +4,16 @@
 
 <a href="https://github.com/prabhutech/sensocloud/zipball/master">
   <img src="https://lh5.googleusercontent.com/-QYRVFFig8fI/U0xzuHnAWbI/AAAAAAAAEBM/qU5rHrPvpOI/w840-h272-no/Screenshot+2014-04-14+19.46.12.png" height="68">
-</a> <a href="http://sensocloud.parseapp.com" target="_blank">
-  <img src="https://lh4.googleusercontent.com/-NXCLKSnPU60/U0xzuGt37_I/AAAAAAAAEBY/QjWLUHowgzY/w792-h272-no/Screenshot+2014-04-14+19.47.22.png" height="68">
-</a>
+</a> 
 
-> AT&T api service with bootstrap, angularjs, cordova and other goodies - lets you quickly set up a web & hybrid mobile app project
+> [AT&T API](https://developer.att.com/apis) service with bootstrap, angularjs, cordova and other goodies - lets you quickly set up a web & hybrid mobile app project
 
 
 ------
 ### Who is this for?
-Maybe you're already using AngularJS for mobile/web and you need consume AT&T API as a Service.
-
-Maybe you are a Sensoplex hardware developer who want to consume its data through cloud.
-
-Maybe you're at a hackathon, and you need to quickly launch a web or a mobile app that needs AT&T api service layer.
+* Maybe you're already using AngularJS for mobile/web and you need consume AT&T API as a Service.
+* Maybe you are a Sensoplex hardware developer who want to consume its data through cloud.
+* Maybe you're at a hackathon, and you need to quickly launch a web or a mobile app that needs AT&T API service layer.
 
 
 ------
@@ -26,8 +22,10 @@ Maybe you're at a hackathon, and you need to quickly launch a web or a mobile ap
 
 
 
-We wanted to simplify the process of setting up the dev environment for consuming AT&T API. This boilerplate is a quickstart for developing AngularJS based web & hybrid mobile apps consuming AT&T API Service. It comes with powerful build system to get you started in minutes!
-Let us know what we can improve.
+We wanted to simplify the process of setting up the dev environment for consuming [AT&T API](https://developer.att.com/apis). This boilerplate is a quickstart for developing AngularJS based web & hybrid mobile apps consuming AT&T API Service. It comes with powerful build system to get you started in minutes. Let us know what we can improve.
+
+This is a by-product of [Closer](http://www.hackathon.io/closer), a product we built for [Wearables Hackathon](http://www.eventbrite.com/e/wearables-tickets-10876924173) using AT&T and Sensoplex, open-sourcing it with the hope that some or all of it will be useful to someone.
+
 
 ------
 ### Features
